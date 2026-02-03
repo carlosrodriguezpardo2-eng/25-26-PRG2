@@ -10,6 +10,14 @@ public class CalculadoraDescuentos {
             System.out.println("[1] Realizar Nueva Compra");
             System.out.println("[2] Salir");
             System.out.print("Opcion: ");
+
+            // 🔥 Commit 1: Validación SOLO del input del menú
+            if (!sc.hasNextInt()) {
+                sc.nextLine(); 
+                System.out.println("Opcion no valida.");
+                continue;
+            }
+
             int menuOpt = sc.nextInt();
             sc.nextLine(); 
 
