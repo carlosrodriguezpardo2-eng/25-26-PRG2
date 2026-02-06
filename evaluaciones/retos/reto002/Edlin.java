@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Edlin {
     private String[] lineas = new String[10];
     private int lineaActiva = 1;
@@ -21,9 +23,20 @@ public class Edlin {
         }
     }
 
+    public void editarLineaActiva(String texto) {
+        lineas[lineaActiva - 1] = texto;
+    }
+
     public static void main(String[] args) {
         Edlin e = new Edlin();
-        e.setLineaActiva(3);
-        e.mostrar();
+        Scanner sc = new Scanner(System.in);
+
+        while (true) {
+            String cmd = sc.nextLine().trim();
+            if (cmd.equals("q")) break;
+            if (cmd.equals("p")) e.mostrar();
+            else if (cmd.startsWith("g ")) e.setLineaActiva(Integer.parseInt(cmd.substring(2)));
+            else if (cmd.startsWith("e ")) e.editarLineaActiva(cmd.substring(2));
+        }
     }
 }
