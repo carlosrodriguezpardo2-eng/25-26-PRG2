@@ -15,7 +15,7 @@ class Intervalo {
     public boolean incluye(double punto)
     public boolean incluye(Intervalo intervalo)
 
-    public boolean igual(Intervalo intervalo)
+    public boolean equals(Intervalo intervalo)
     public Intervalo interseccion(Intervalo intervalo)
     public boolean intersecta(Intervalo intervalo)   
     
