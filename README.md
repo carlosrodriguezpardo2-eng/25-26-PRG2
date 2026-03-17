@@ -1,9 +1,10 @@
-# Programación II
+# Programación II - Rama para entregas
 
-Repo de materiales y proyectos de la asignatura **Programación II** del [Grado de Ingeniería Informática](https://www.uneatlantico.es/escuela-politecnica-superior/estudios-grado-oficial-en-ingenieria-informatica) la [Universidad Europea del Atlántico](https://www.uneatlantico.es).
+Rama de entregas de retos y ejercicios de la asignatura **Programación II** del [Grado de Ingeniería Informática](https://www.uneatlantico.es/escuela-politecnica-superior/estudios-grado-oficial-en-ingenieria-informatica) la [Universidad Europea del Atlántico](https://www.uneatlantico.es).
 
-## Curso [25][26]
+## Instrucciones
 
+<<<<<<< HEAD
 - [Temario](https://github.com/mmasias/PRG2)
   - [A día de hoy, deberíamos saber...](temario/aDiaDeHoy.md)
   - [Casos de uso](temario/casosDeUso/README.md)
@@ -33,3 +34,7 @@ NOTA: *Algunos enlaces podrían requerir **credenciales de acceso al campus** o 
 - Libro de la asignatura
 - [Repo de la asignatura](https://github.com/mmasias/PRG2)
 - Este repo, versión de ediciones pasadas: [[23][24]](https://github.com/mmasias/23-24-PRG2), [[24][25]](https://github.com/mmasias/24-25-PRG2)
+=======
+- Lea lo indicado en el [README de la carpeta de entregas](entregas/README.md).
+- Para la entrega de cada reto planteado cree una rama a partir de esta rama, siguiendo las instrucciones indicadas en dicho ejercicio, trabajo o reto.
+>>>>>>> 2737b2c957663fbaad6c96575171ed5a34651b25
