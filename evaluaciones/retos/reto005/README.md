@@ -7,7 +7,8 @@ Diseño e implementación de una simulació de carrera de caballos.
 ```java
 class Juego {
     public static void main(String[] args){
-        new Carrera().jugar();
+        Carrera carrera = new Carrera();
+        carrera.jugar();
     }
 }
 ```
